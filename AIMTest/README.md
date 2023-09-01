@@ -17,5 +17,41 @@ You are tasked with designing an API for an elevator control system. Your API ne
 
 ## Prerequisites
 
+This API was built with .net 7 so you should install .net7 and .net cli as well.
+
+## Installation
+
 1. Clone the repository
+
+```
+  git clone https://github.com/deboguer-jng/aim_test.git
+```
+
+2. Navigate to the project directory
+
+```
+  cd your-repo
+```
+
+3. Install dependencies and run application
+
+```
+  dotnet restore
+  cd AIMTest
+  dotnet run
+```
+
+4. Visit application on swagger ui
+
+```
+  http://localhost:8081/swagger/index.html
+```
+
+## Usage
+
+Currently the API is implemented in very minimal way that means it doesn't consider any elevator movement, number of passengers, and order of the requested floors as well.
+
+You can get more detailed information for request/response bodies from swagger ui.
+
+
 
