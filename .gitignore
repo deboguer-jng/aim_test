@@ -1,0 +1,70 @@
+# .NET and Visual Studio Files
+.vscode/
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.sln.docstates
+*.userprefs
+[Tt]humbs.db
+Desktop.ini
+*.[Cc]ache
+*.log
+*.vspscc
+*.vssscc
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+/packages/
+# It's often better to not include the NuGet packages in version control,
+# but if you want to include them, comment out the previous line.
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code directories
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
